@@ -1,4 +1,18 @@
 {
   "name": "nodejs-testing-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "test": "node --import tsx --test src/**/*.test.ts"
+  },
+  "engines": {
+    "node": "20.8.1"
+  },
   "packageManager": "yarn@4.4.0"
 }
